@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, nav, section, aside, footer {
+    background-color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article {
+    color: #ebebeb;
+    background-color: #777;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h4, p {
+    background-color: #ebebeb;
+    color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    float: left;
+    width: 495px;
+}
+
+/*  I could not figure out how to get the height of aside
+    to be the same height as the parent div so I manually
+    set the height.  */
+aside {
+    float: left;
+    margin-left: 20px;
+    width: 445px;
+    height: 309px;
+}
